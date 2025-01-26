@@ -31,11 +31,12 @@ This is a custom **FAQ chatbot** developed using the **Llama 3 model**. I fine-t
 ## Screenshots
 Here’s a screenshot showing the **FAQ chatbot** answering a customer query.
 
-![FAQ Bot Screenshot](images/blinkit_faq_screenshot.png)  <!-- Image reference for FAQ bot screenshot -->
+![FAQ Bot Screenshot](botss.png)  <!-- Image reference for FAQ bot screenshot -->
 
 ---
 
 ## About the Data
 The **Blinkit FAQ** data was scraped from the Blinkit website using Python libraries like **BeautifulSoup** and **Requests**. I used this data to fine-tune the Llama 3 model, ensuring the chatbot gives highly relevant answers to common customer queries.
 
+![FAQ Example](faqss.png) 
 ---
