@@ -33,14 +33,19 @@ st.markdown(
     body {
         background-color: yellow;
     }
+    img {
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
+
 st.image(
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlSzxnf4I6ot4GzK7yoCH9YS3WCNNJ5o7Tg&s",
-    use_column_width=True,
+    use_container_width=False
 )
 
 # Streamlit UI
