@@ -3,7 +3,7 @@ from huggingface_hub import InferenceClient
 import os 
 
 # Initialize HF client
-client = InferenceClient(token=st.secrets[HF_TOKEN])
+client = InferenceClient(token=st.secrets["HF_TOKEN"])
 MODEL_NAME = "Chinmay3/llama3-fine-tuned"  
 
 def format_prompt(instruction, input_text):
