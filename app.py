@@ -27,8 +27,24 @@ def generate_response(instruction, input_text=""):
     )
     return response.split("### Response:")[-1].strip()
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: yellow;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.image(
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlSzxnf4I6ot4GzK7yoCH9YS3WCNNJ5o7Tg&s",
+    use_column_width=True,
+)
+
 # Streamlit UI
-st.title("🦙 Llama 3 Product Assistant")
+st.title("Llama 3 Blinkit FAQ Bot")
 instruction = st.text_input("What do you need help with?", "How to return a product...")
 input_text = st.text_input("Additional context (optional)")
 
